@@ -12,9 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-white`}>
+      <body className={`${inter.className} bg-black`}>
         <Navbar></Navbar>
-        <div className=" bg-blue-50 container mx-auto max-w-screen-xl">
+        <div>
           {children}
           </div>
       </body>
