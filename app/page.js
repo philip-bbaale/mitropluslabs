@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>This is the Home page</h1>
+    <main className=" container_box">
+      <h1 className='text-violet-400'>This is the Home page</h1>
     </main>
   )
 }
