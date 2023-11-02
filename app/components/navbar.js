@@ -85,7 +85,7 @@ import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className='flex items-center flex-wrap bg-transparent p-3 '>
       {links.map((link) => {
         return (
           <Link
