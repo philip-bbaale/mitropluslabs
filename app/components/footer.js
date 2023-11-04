@@ -90,7 +90,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-white text-black py-6 px-4 lex flex-col flex-grow">
-      <div className="container mx-auto flex flex-wrap justify-between items-center">
+      <div className="container mx-auto flex flex-wrap justify-around items-center">
         <div className="w-full md:w-auto mb-4 md:mb-0 text-center md:text-left">
           <Link href="/">
             <Image
@@ -107,14 +107,14 @@ export default function Footer() {
             <ul>
               {link.sub_links.map((subLink, subIndex) => (
                 <li key={subIndex}>
-                  <Link href={subLink.href}>{subLink.name}</Link>
+                  <Link href={subLink.href} className="hover:text-yellow-600">{subLink.name}</Link>
                 </li>
               ))}
             </ul>
           </div>
         ))}
       </div>
-      <div className="border-t mt-6 pt-6 text-center text-sm text-gray-600">
+      <div className="border-t border-yellow-600 mt-6 pt-6 text-center text-sm text-gray-600">
         © {year} Mitroplus Labs
       </div>
     </footer>
