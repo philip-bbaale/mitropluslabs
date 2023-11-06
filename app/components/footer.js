@@ -89,7 +89,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-white text-black py-6 px-4 lex flex-col flex-grow">
+    <footer className="bg-black text-white py-6 px-4 lex flex-col flex-grow">
       <div className="container mx-auto flex flex-wrap justify-around items-center">
         <div className="w-full md:w-auto mb-4 md:mb-0 text-center md:text-left">
           <Link href="/">
@@ -100,11 +100,11 @@ export default function Footer() {
               height={50}
             />
           </Link>
-          <p>Mitroplus Labs: Shaping Africa's tech future through education, innovation, and values.</p>
+          <p><span className="text-yellow-600">Mitroplus Labs: </span>Shaping Africa's tech future through education, innovation, and values.</p>
         </div>
         {links.map((link, index) => (
           <div key={index} className="w-full md:w-auto mb-4 md:mb-0">
-            <h6 className="font-semibold">{link.name}</h6>
+            <h6 className="font-semibold text-violet-400">{link.name}</h6>
             <ul>
               {link.sub_links.map((subLink, subIndex) => (
                 <li key={subIndex}>
