@@ -100,6 +100,7 @@ export default function Footer() {
               height={50}
             />
           </Link>
+          <p>Mitroplus Labs: Shaping Africa's tech future through education, innovation, and values.</p>
         </div>
         {links.map((link, index) => (
           <div key={index} className="w-full md:w-auto mb-4 md:mb-0">
