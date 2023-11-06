@@ -89,7 +89,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-black text-white py-6 px-4 lex flex-col flex-grow">
+    <footer className="bg-black text-white border-t border-yellow-600 py-6 px-4 lex flex-col flex-grow">
       <div className="container mx-auto flex flex-wrap justify-around items-center">
         <div className="w-full md:w-auto mb-4 md:mb-0 text-center md:text-left">
           <Link href="/">
@@ -115,8 +115,9 @@ export default function Footer() {
           </div>
         ))}
       </div>
-      <div className="border-t border-yellow-600 mt-6 pt-6 text-center text-sm text-gray-600">
-        © {year} Mitroplus Labs
+      <div className="flex flex-wrap justify-around items-center border-t border-yellow-600 mt-6 pt-6 text-center text-sm text-gray-600">
+        <p>© {year} Mitroplus Labs</p>
+        <p><a href="mailto:info.mitropluslabs@gmail.com" className="hover:text-yellow-600">info.mitropluslabs@gmail.com</a></p>
       </div>
     </footer>
   );
