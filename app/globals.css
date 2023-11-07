@@ -3,28 +3,28 @@
 @tailwind utilities;
 
 .container_box {
-    @apply my-24 w-4/5 flex flex-col flex-grow mx-auto;
-  }
+  @apply my-24 w-4/5 flex flex-col flex-grow mx-auto;
+}
 
 .header1 {
- @apply font-extrabold uppercase lg:text-4xl md:text-3xl text-2xl
+  @apply font-extrabold uppercase lg:text-4xl md:text-3xl text-2xl;
 }
-.header2{
-   @apply font-semibold lg:text-3xl md:text-2xl text-xl
-}
-
-.header3{
-  @apply font-medium lg:text-xl md:text-lg text-base
+.header2 {
+  @apply font-semibold lg:text-3xl md:text-2xl text-xl;
 }
 
-.text1{
-  @apply font-normal lg:text-lg md:text-sm
+.header3 {
+  @apply font-medium lg:text-xl md:text-lg text-base;
+}
+
+.text1 {
+  @apply font-normal lg:text-lg md:text-sm;
 }
 
 .text2 {
-  @apply font-normal lg:text-base text-sm
+  @apply font-normal lg:text-base text-sm;
 }
 
 .text3 {
-  @apply font-normal text-xs 
+  @apply font-normal text-xs;
 }
