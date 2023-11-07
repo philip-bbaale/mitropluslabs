@@ -21,7 +21,7 @@ export default function Footer() {
               height={50}
             />
           </Link>
-          <p>
+          <p className=" text-left">
             <span className="text-yellow-600">Mitroplus Labs: </span>Shaping
             Africa's tech future through education, innovation, and values.
           </p>
