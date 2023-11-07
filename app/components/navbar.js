@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm opacity-95 bg-black p-3">
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-2xl opacity-95  p-3">
       <div className={`flex justify-around items-center`}>
         {/* Logo */}
         <div className="flex items-center">
