@@ -10,7 +10,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-black text-white border-t border-yellow-600 py-6 px-4 lex flex-col flex-grow">
+    <footer className="bg-black backdrop-blur-2xl opacity-95 text-white border-t border-yellow-600 py-6 px-4 lex flex-col flex-grow">
       <div className="container mx-auto flex flex-wrap justify-around items-center">
         <div className="w-full md:w-auto mb-4 md:mb-0 text-center md:text-left">
           <Link href="/">
